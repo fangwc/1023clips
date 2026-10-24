@@ -5,5 +5,5 @@
 python generate_job.py 秘钥
 
 # 如果 1 失败了，可以根据job_id 查询, 获取视频下载链接
-python get_job.py job_id
+python get_job.py 秘钥 job_id
 
