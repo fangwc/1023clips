@@ -30,8 +30,8 @@ def img_to_base64(path: str) -> str:
         return base64.b64encode(f.read()).decode('utf-8')
 
 
-s = "data:image/jpeg;base64,"+img_to_base64('./modeling_db/model6_yj_guzhuang_akk.jpg')  
-s2 = "data:video/mp4;base64,"+img_to_base64('./video_db/video2.mp4')
+s = "data:image/jpeg;base64,"+img_to_base64('./modeling_db/model7_yj_xiandai.jpg')  
+s2 = "data:video/mp4;base64,"+img_to_base64('./video_db/video3.mp4')
 
 print(s2)
 
@@ -55,6 +55,7 @@ def submit_video_job(prompt: str, model: str = "klingai/kling-3.0-omni",
     # 可灵需要指定长宽比；
     if(model == "klingai/kling-3.0-omni"):
         payload['ratio'] = "9:16"
+        payload['audio'] = "native" # 视频原声音，默认关闭
 
     print(payload)
 
