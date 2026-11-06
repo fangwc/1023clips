@@ -8,3 +8,8 @@
 ### 2：查询job情况：如果 1 失败了，可以根据job_id 查询, 获取视频下载链接
 - python get_job.py 秘钥 job_id
 
+### 文件夹内容
+- modeling_db : 模特数据库
+- video_db: 视频库
+- douyin_fabu: 抖音发布视频
+- prompt：历史prompt
