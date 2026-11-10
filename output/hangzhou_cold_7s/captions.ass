@@ -1,0 +1,21 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Microsoft YaHei,70,&H00FFFFFF,&H000000FF,&H001E211E,&H60000000,-1,0,0,0,100,100,2,0,1,3.5,2,5,60,60,0,1
+Style: Small,Microsoft YaHei,31,&H00FFFFFF,&H000000FF,&H00302E25,&H70000000,0,0,0,0,100,100,1,0,1,2,0,7,0,0,0,1
+Style: Label,Microsoft YaHei,25,&H00FFFFFF,&H000000FF,&H00302E25,&H70000000,0,0,0,0,100,100,0,0,1,1.5,0,9,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:07.00,Small,,0,0,0,,{\pos(65,150)}杭州降温 · 西湖先穿上了
+Dialogue: 1,0:00:00.00,0:00:07.00,Label,,0,0,0,,{\pos(1000,155)}AI创意演绎
+Dialogue: 1,0:00:00.00,0:00:01.00,Main,,0,0,0,,{\pos(540,1435)}杭州降温了！
+Dialogue: 1,0:00:01.00,0:00:03.00,Main,,0,0,0,,{\pos(540,1450)\c&H0089DFFF&\fad(60,50)}雷峰塔先穿上了
+Dialogue: 1,0:00:03.00,0:00:05.00,Main,,0,0,0,,{\pos(540,1450)\c&H0089DFFF&\fad(60,50)}三潭印月也裹上了
+Dialogue: 1,0:00:05.00,0:00:07.00,Main,,0,0,0,,{\pos(540,1450)\fad(60,140)}西湖都穿上了\N{\c&H0089DFFF&}你呢？
